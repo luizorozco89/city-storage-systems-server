@@ -12,7 +12,7 @@ This server uses Socket.IO 3. Please ensure your client is compatible with this 
 
 ## Verifying server is running
 
-After starting the server, navigate to `http://localhost:4000/` in your browser and open the console. You should see logs indicating that the page has received order events.
+After starting the server, navigate to `http://localhost:4000/health`. You should see 'ok' printed on screen.
 
 ## The data
 

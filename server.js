@@ -49,7 +49,7 @@ io.on('connection', (socket) => {
       io.emit('order_event', toSend);
     }
     elapsed += 1;
-  }, 20000);
+  }, 1000);
 
   socket.on('disconnect', () => {
     console.log('Client disconnected');
