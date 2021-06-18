@@ -32,15 +32,13 @@ app.get('/health', (req, res) => {
  * It waits for a new connection, upon which it iterates through a
  * JSON file of sample order data and sends it down to the connected
  * client. The server will restart the order events for a new connection,
- * and stops after it receives a disconnect. Feel free to extend this if needed,
- * it's meant to be quite bare-bones :)
+ * and stops after it receives a disconnect.
  */
+
 io.on('connection', (socket) => {
-  console.log('New connection');
   let elapsed = 0;
   const ticker = setInterval(() => {
     if (elapsed >= 330) {
-      console.log('All order events sent');
       clearInterval(ticker);
       return;
     }
@@ -49,7 +47,7 @@ io.on('connection', (socket) => {
       io.emit('order_event', toSend);
     }
     elapsed += 1;
-  }, 1000);
+  }, 3000);
 
   socket.on('disconnect', () => {
     console.log('Client disconnected');
