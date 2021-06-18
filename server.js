@@ -39,6 +39,7 @@ io.on('connection', (socket) => {
   let elapsed = 0;
   const ticker = setInterval(() => {
     if (elapsed >= 330) {
+      console.log('All order events sent');
       clearInterval(ticker);
       return;
     }
