@@ -1,5 +1,5 @@
 [
-    {
+  {
       "customer": "Carla Garner",
       "destination": "Fictional address",
       "event_name": "CREATED",
@@ -88,5 +88,95 @@
       "item": "Taco salad",
       "price": 226,
       "sent_at_second": 11
+  },
+  {
+    "customer": "Julie Smith",
+    "destination": "Fictional address",
+    "event_name": "DRIVER_RECEIVED",
+    "id": "e7fb7e0f",
+    "item": "Taco salad",
+    "price": 226,
+    "sent_at_second": 20
+  },
+  {
+    "customer": "Julie Smith",
+    "destination": "Fictional address",
+    "event_name": "DELIVERED",
+    "id": "e7fb7e0f",
+    "item": "Taco salad",
+    "price": 226,
+    "sent_at_second": 25
+  },
+  {
+    "customer": "Karina Lopez",
+    "destination": "Fictional address",
+    "event_name": "CREATED",
+    "id": "b11b8a69",
+    "item": "Fish tacos",
+    "price": 8700,
+    "sent_at_second": 10
+  },
+  {
+    "customer": "Karina Lopez",
+    "destination": "Fictional address",
+    "event_name": "COOKED",
+    "id": "b11b8a69",
+    "item": "Fish tacos",
+    "price": 8700,
+    "sent_at_second": 15
+  },
+  {
+    "customer": "Karina Lopez",
+    "destination": "Fictional address",
+    "event_name": "DRIVER_RECEIVED",
+    "id": "b11b8a69",
+    "item": "Fish tacos",
+    "price": 8700,
+    "sent_at_second": 22
+  },
+  {
+    "customer": "Karina Lopez",
+    "destination": "Fictional address",
+    "event_name": "DELIVERED",
+    "id": "b11b8a69",
+    "item": "Fish tacos",
+    "price": 8700,
+    "sent_at_second": 30
+  },
+  {
+    "customer": "Heather Hughes",
+    "destination": "Fictional address",
+    "event_name": "CREATED",
+    "id": "0b63508d",
+    "item": "Berry smoothie",
+    "price": 8029,
+    "sent_at_second": 5
+  },
+  {
+    "customer": "Heather Hughes",
+    "destination": "Fictional address",
+    "event_name": "COOKED",
+    "id": "0b63508d",
+    "item": "Berry smoothie",
+    "price": 8029,
+    "sent_at_second": 14
+  },
+  {
+    "customer": "Heather Hughes",
+    "destination": "Fictional address",
+    "event_name": "DRIVER_RECEIVED",
+    "id": "0b63508d",
+    "item": "Berry smoothie",
+    "price": 8029,
+    "sent_at_second": 22
+  },
+  {
+    "customer": "Heather Hughes",
+    "destination": "Fictional address",
+    "event_name": "DELIVERED",
+    "id": "0b63508d",
+    "item": "Berry smoothie",
+    "price": 8029,
+    "sent_at_second": 31
   }
 ]

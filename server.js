@@ -48,7 +48,7 @@ io.on('connection', (socket) => {
       io.emit('order_event', toSend);
     }
     elapsed += 1;
-  }, 3000);
+  }, 2000);
 
   socket.on('disconnect', () => {
     console.log('Client disconnected');
