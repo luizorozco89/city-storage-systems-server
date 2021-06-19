@@ -1,6 +1,6 @@
 # Order Data Server
 
-Included is a very simple Node.js server that utilizes express and socket.io to provide order data. Order data is streamed over a socket at predefined intervals based on the input in `./order-data.json`. Feel free to modify and extend this server to fit your needs - it's meant to provide a basic jumping-off point and lacks a lot of the bells and whistles that a production-ready web application might require :)
+Included is a very simple Node.js server that utilizes express and socket.io to provide order data. Order data is streamed over a socket at predefined intervals based on the input in `./order-data.json`.
 
 ## Running the server
 
